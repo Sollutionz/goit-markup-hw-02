@@ -57,7 +57,10 @@ body {
   color: var(--main-color);
 }
 
-.navigation:active,
+.navigation.current {
+  color: var(--accent-color);
+}
+
 .navigation:hover,
 .navigation:focus {
   color: var(--accent-color);
