@@ -57,6 +57,7 @@ body {
   color: var(--main-color);
 }
 
+.navigation:active,
 .navigation:hover,
 .navigation:focus {
   color: var(--accent-color);
